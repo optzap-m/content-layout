@@ -1,0 +1,48 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+
+  font: 18px/1.5 sans-serif;
+}
+
+.chessboard {
+  width: 500px;
+  height: 500px;
+
+  background: #b58763;
+
+  border-collapse: collapse;
+}
+
+/* BEGIN (write your solution here) */
+
+.one td:nth-of-type(2n+1) {
+  background: #f1d9b5;
+}
+.two td:nth-of-type(2n) {
+  background: #f1d9b5;
+}
+.three td:nth-of-type(2n+1) {
+  background: #f1d9b5;
+}
+.four td:nth-of-type(2n) {
+  background: #f1d9b5;
+}
+.five td:nth-of-type(2n+1) {
+  background: #f1d9b5;
+}
+.six td:nth-of-type(2n) {
+  background: #f1d9b5;
+}
+.seven td:nth-of-type(2n+1) {
+  background: #f1d9b5;
+}
+.eight td:nth-of-type(2n) {
+  background: #f1d9b5;
+}
+
+/* END */
