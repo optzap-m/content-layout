@@ -21,24 +21,30 @@ h1, h2, h3 {
   background: #fff;
   border-radius: 10px;
 }
+
 /* BEGIN (write your solution here) */
-article {
-  border-top: 1px solid #e5e5e5;
-}
-h1 {
+.articles h1 {
   font-size: 2em;
 }
-h2 {
+
+.articles h2 {
   font-size: 1.5em;
 }
-h3 {
+
+.articles h3 {
   font-size: 1em;
 }
-.uroven {
+
+.articles article {
+  border-top: 1px solid #e5e5e5;
+}
+
+.articles h3 + p {
   padding: 20px;
   color: #686868;
   text-align: right;
   font-size: 0.8em;
   background-color: #f6f6f6;
 }
+
 /* END */

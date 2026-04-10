@@ -21,11 +21,11 @@ body {
 /* BEGIN */
 
 .chessboard tr:nth-child(odd) td:nth-child(odd) {
-  background-color: #f1d9b5;
+  background: #f1d9b5;
 }
 
 .chessboard tr:nth-child(even) td:nth-child(even) {
-  background-color: #f1d9b5;
+  background: #f1d9b5;
 }
 
 /* END */
