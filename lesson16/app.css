@@ -3,19 +3,19 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-  /* BEGIN (write your solution here) */
-.karts {
+
+  /* BEGIN */
+
   width: 300px;
   height: 200px;
-  background-image: url("../assets/background.png");
-  background-position: center;
-  background-size: cover;
-}
-.paragraph {
+
+  color: #e1bee6;
   font-size: 24px;
   font-weight: bold;
-  color: #e1bee6;
-}
-  /* END */
 
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+
+  /* END */
+}
